@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 440px;
+    padding: 32px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #111827;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #374151;
+    outline: none;
+}
+
+input::placeholder {
+    color: #9ca3af;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    color: #111827;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 16px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.submit-btn:hover {
+    background-color: #2563eb;
+}
